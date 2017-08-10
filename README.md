@@ -1,7 +1,6 @@
 # Visualizing Convnets
 
-This repository has the code from my O'Reilly article 'Visualizing Convolutional Neural Networks w/ TensorFlow'
-How to build convolutional neural networks from scratch w/ Tensorflow published on.
+This repository has the code from my O'Reilly article 'Visualizing Convolutional Neural Networks w/ TensorFlow' published on.
 
 This code contains tools for building a dataset and a jupyter notebook for implementing and visualizing a simple convolutional neural network.
 
