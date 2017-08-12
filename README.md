@@ -60,4 +60,4 @@ There are three ways you can install these packages: by using Docker, by using A
     ```
     To switch windows `Press CTL+B` then `window #` 
  
-    Once both jupyter and tensorboard are running, using your browser, navigate to the URLs shown in the terminal output (usually http://localhost:8888/ for Jupyter Notebook and http://localhost:6006/ for Tensorboard)
+    Once both jupyter and tensorboard are running, using your browser, navigate to the URLs shown in the terminal output if those don't work  try http://localhost:8888/ for Jupyter Notebook and http://localhost:6006/ for Tensorboard.
