@@ -53,11 +53,11 @@ There are three ways you can install these packages: by using Docker, by using A
     
     jupyter notebook --allow-root
     ```
-    `Press CTL+B followed C` to open a new tmux window, then
+    `Press CTL+B` then `C` to open a new tmux window, then
     
     ```
     tensorboard --logdir='/tmp/cnn'
     ```
-    To switch windows `Press CTL+B followed #` 
+    To switch windows `Press CTL+B` then `window #` 
  
     Once both jupyter and tensorboard are running, using your browser, navigate to the URLs shown in the terminal output (usually http://localhost:8888/ for Jupyter Notebook and http://localhost:6006/ for Tensorboard)
