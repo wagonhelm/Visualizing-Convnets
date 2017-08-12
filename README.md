@@ -12,7 +12,7 @@ This code contains tools for building a dataset and a jupyter notebook for imple
 * [Matplotlib](http://matplotlib.org/)
 * [Pillow](http://python-pillow.org/)
 
-There are three ways you can install these packages: by using Docker, by using Anaconda Python, or installing the packages manually yourself.  Though not required if you have a NVidia Graphic Card with a compute capability of 3.0 or greater with atleast 3gb of memory using GPU supported TensorFlow will drasticallly improve preformance. Instructions for installing GPU supported TensorFlow can be found [here](https://github.com/wagonhelm/ML-Workstation-Installation-Guide).
+There are three ways you can install these packages: by using Docker, by using Anaconda Python, or installing the packages manually yourself.  Though not required if you have a NVidia graphic card with a compute capability of 3.0 or greater and atleast 3gb of memory using GPU supported TensorFlow will drasticallly improve preformance. Instructions for installing GPU supported TensorFlow can be found [here](https://github.com/wagonhelm/ML-Workstation-Installation-Guide).
 
 ### Using Docker
 
