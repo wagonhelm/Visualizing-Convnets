@@ -51,7 +51,7 @@ There are three ways you can install these packages: by using Docker, by using A
     ```bash
     tmux
     
-    jupyter notebook
+    jupyter notebook --allow-root
     ```
     `CTL+B, C` to open a new tmux window, then
     
