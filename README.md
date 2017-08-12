@@ -16,14 +16,19 @@ There are two ways you can install these packages: by using Docker, or installin
 
 ### Using Docker
 
-1. Download and unzip [this entire repo from GitHub](https://github.com/wagonhelm/Visualizing-Convnets), either interactively, or by entering
+1. Download and install [Docker](https://www.docker.com/).
+
+2. Download and unzip [this entire repo from GitHub](https://github.com/wagonhelm/Visualizing-Convnets), either interactively, or by entering
     ```bash
     git clone https://github.com/wagonhelm/Visualizing-Convnets.git
     ```
 
-2. Open your terminal and use `cd` to navigate into the directory of the repo on your machine
-
-3. To build the Dockerfile, enter
+3. Open your terminal and use `cd` to navigate into the directory of the repo on your machine
+```bash
+    cd Visualizing-Convnets
+    ```
+    
+4. To build the Dockerfile, enter
     ```bash
     docker build -t cnn_dockerfile -f dockerfile .
     ```
@@ -32,7 +37,7 @@ There are two ways you can install these packages: by using Docker, or installin
     sudo docker build -t cnn_dockerfile -f dockerfile .
     ```
 
-4. Run Docker from the Dockerfile you've just built
+5. Run Docker from the Dockerfile you've just built
     ```bash
     docker run -it -p 8888:8888 -p 6006:6006 cnn_dockerfile bash
     ```
@@ -42,7 +47,7 @@ There are two ways you can install these packages: by using Docker, or installin
     ```
     if you run into permission problems.
 
-5. Launch Jupyter and Tensorboard both by using tmux 
+6. Launch Jupyter and Tensorboard both by using tmux 
     ```bash
     tmux
     
