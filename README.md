@@ -16,7 +16,7 @@ There are two ways you can install these packages: by using Docker, or installin
 
 ### Using Docker
 
-1. Download and install [Docker](https://www.docker.com/).
+1. Download and install [Docker](https://www.docker.com/).  If using Ubuntu 14.04/16.04 I wrote my own instructions for installing docker [here](https://github.com/wagonhelm/ML-Workstation-Installation-Guide#install-docker)
 
 2. Download and unzip [this entire repo from GitHub](https://github.com/wagonhelm/Visualizing-Convnets), either interactively, or by entering
     ```bash
