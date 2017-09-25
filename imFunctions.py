@@ -67,11 +67,11 @@ def sortImages(testPer):
             os.makedirs(path2+'train')
         if not os.path.exists(path2+'test'):
             os.makedirs(path2+'test')
-        
-        for ii in listing2[0:math.floor(len(listing2)*testPer)]:
+    
+        for ii in listing2[0:int(float(math.floor(len(listing2)*testPer)))]:
             os.rename(path2+ii, path2+'test'+'/'+ii)
-        for ii in listing2[math.floor(len(listing2)*testPer):]:
-            os.rename(path2+ii, path2+'train'+'/'+ii)
+        for ii in listing2[int(math.floor(len(listing2)*testPer)):]:
+            os.rename(path2+ii, path2+'train'+'/'+ii)    
     print("Images sorted")
             
 def buildDataset():
