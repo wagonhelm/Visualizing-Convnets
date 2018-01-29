@@ -1,5 +1,7 @@
 # Visualizing Convnets
 
+<img src=\"imageFiles/conv1.gif\">
+
 This repository has the code from my O'Reilly article [Visualizing Convolutional Neural Networks w/ TensorFlow](https://www.oreilly.com/ideas/visualizing-convolutional-neural-networks) published on September 15th, 2017.
 
 This code contains tools for building a dataset and a jupyter notebook for implementing and visualizing a simple convolutional neural network.
